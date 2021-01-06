@@ -1,0 +1,34 @@
+package Events;
+
+import Buildings.Floor;
+import Passengers.Passenger;
+import src.Simulation;
+
+/**
+ * A simulation event that adds an existing passenger to a given floor, as if they have finished with their
+ * task on that floor and are now waiting for an elevator to go to their next destination.
+ */
+public class PassengerNextDestinationEvent extends SimulationEvent {
+	private Passenger mPassenger;
+	private Floor mStartingFloor;
+	
+	public PassengerNextDestinationEvent(long scheduledTime, Passenger passenger, Floor startingFloor) {
+		super(scheduledTime);
+		mPassenger = passenger;
+		mStartingFloor = startingFloor;
+		this.setPriority(2);
+	}
+	
+	
+	@Override
+	public void execute(Simulation sim) {
+		mPassenger.setState(Passenger.PassengerState.WAITING_ON_FLOOR);
+		mStartingFloor.addWaitingPassenger(mPassenger);
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + " "+ mPassenger.getPassengerName()+ " " + mPassenger.getId() + " joining floor " + mStartingFloor.getNumber() +
+		 ", heading to floor " + mPassenger.getDestination();
+	}
+}

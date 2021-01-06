@@ -1,0 +1,1498 @@
+"C:\Program Files\Java\jdk-11.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\lib\idea_rt.jar=50664:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\zubin\eclipse-class-projects\UltimateElevatorsProject3\out\production\UltimateElevatorsProject3 src.Simulation
+Please provide a seed value: 
+5
+Disable mode press 0 for off and press 1 for on .
+1
+Enter number of floors.
+15
+Enter number of elevators.
+2
+Please Enter your simulation time.
+0
+0s: Elevator 1 [Idle]  - Floor 1 - IDLE_STATE - NOT_MOVING - [] {}
+0s: Elevator 2 [Idle]  - Floor 1 - IDLE_STATE - NOT_MOVING - [] {}
+0s: Adding Visitor 1 [-> 6] to floor 1.
+0s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+0s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : | X | X | ⬆️V1->6   
+Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+2s: Visitor 1 responsibly requested floor 6 on elevator 1
+2s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V1] {6,}
+2s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [] {}
+3s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V1] {6,}
+3s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - NOT_MOVING - [] {}
+5s: Elevator 2 [Idle]  - Floor 1 - IDLE_STATE - NOT_MOVING - [] {}
+5s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V1] {6,}
+5s: Adding Worker 2 [-> 7] to floor 1.
+5s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+7s: Worker 2 responsibly requested floor 7 on elevator 2
+7s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [W2] {7,}
+8s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [V1] {6,}
+8s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [W2] {7,}
+10s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [V1] {6,}
+10s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [W2] {7,}
+12s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [V1] {6,}
+13s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [W2] {7,}
+14s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [V1] {6,}
+15s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [W2] {7,}
+16s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [V1] {6,}
+17s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [W2] {7,}
+18s: Elevator 1 [Active]  - Floor 6 - DECELERATING - NOT_MOVING - [V1] {}
+19s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [W2] {7,}
+21s: Elevator 1 [Active]  - Floor 6 - DOORS_OPENING - NOT_MOVING - [V1] {}
+21s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [W2] {7,}
+23s: Elevator 1 [Active]  - Floor 6 - DOORS_OPEN - NOT_MOVING - [] {}
+23s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [W2] {7,}
+24s: Elevator 1 [Active]  - Floor 6 - DOORS_CLOSING - NOT_MOVING - [] {}
+24s: Adding Delivery Person 3 [-> 11] to floor 1.
+25s: Elevator 2 [Active]  - Floor 7 - DECELERATING - NOT_MOVING - [W2] {}
+26s: Elevator 1 [Idle]  - Floor 6 - IDLE_STATE - NOT_MOVING - [] {}
+26s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 6 - IDLE_STATE - MOVING_DOWN - [] {}
+26s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 6 - ACCELERATING - MOVING_DOWN - [] {}
+28s: Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - NOT_MOVING - [W2] {}
+29s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+30s: Elevator 2 [Active]  - Floor 7 - DOORS_OPEN - NOT_MOVING - [] {}
+31s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+31s: Elevator 2 [Active]  - Floor 7 - DOORS_CLOSING - NOT_MOVING - [] {}
+33s: Elevator 2 [Idle]  - Floor 7 - IDLE_STATE - NOT_MOVING - [] {}
+33s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+35s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+37s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+39s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+42s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+44s: Delivery Person 3 responsibly requested floor 11 on elevator 1
+44s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [DP3] {11,}
+45s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [DP3] {11,}
+47s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [DP3] {11,}
+50s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [DP3] {11,}
+52s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [DP3] {11,}
+52s: Adding Visitor 4 [-> 8] to floor 1.
+52s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - IDLE_STATE - MOVING_DOWN - [] {}
+52s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - ACCELERATING - MOVING_DOWN - [] {}
+54s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [DP3] {11,}
+55s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+56s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [DP3] {11,}
+57s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+58s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [DP3] {11,}
+59s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+60s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_UP - [DP3] {11,}
+61s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+62s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_UP - [DP3] {11,}
+63s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+64s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [DP3] {11,}
+65s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+66s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_UP - [DP3] {11,}
+67s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+68s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_UP - [DP3] {11,}
+70s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+70s: Elevator 1 [Active]  - Floor 11 - DECELERATING - NOT_MOVING - [DP3] {}
+72s: Visitor 4 responsibly requested floor 8 on elevator 2
+72s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V4] {8,}
+73s: Elevator 1 [Active]  - Floor 11 - DOORS_OPENING - NOT_MOVING - [DP3] {}
+73s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V4] {8,}
+75s: Elevator 1 [Active]  - Floor 11 - DOORS_OPEN - NOT_MOVING - [DP3] {}
+75s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V4] {8,}
+76s: Elevator 1 [Active]  - Floor 11 - DOORS_CLOSING - NOT_MOVING - [DP3] {}
+78s: Elevator 1 [Idle]  - Floor 11 - IDLE_STATE - NOT_MOVING - [DP3] {}
+78s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [V4] {8,}
+78s: Adding Visitor 5 [-> 10] to floor 1.
+78s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 11 - IDLE_STATE - MOVING_DOWN - [DP3] {}
+78s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 11 - ACCELERATING - MOVING_DOWN - [DP3] {}
+80s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [V4] {8,}
+81s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [DP3] {}
+82s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [V4] {8,}
+83s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [DP3] {}
+84s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [V4] {8,}
+85s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [DP3] {}
+86s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [V4] {8,}
+87s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [DP3] {}
+88s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [V4] {8,}
+89s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [DP3] {}
+90s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [V4] {8,}
+91s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [DP3] {}
+92s: Elevator 2 [Active]  - Floor 8 - DECELERATING - NOT_MOVING - [V4] {}
+93s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [DP3] {}
+95s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - NOT_MOVING - [V4] {}
+95s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [DP3] {}
+96s: Adding Visitor 6 [-> 2] to floor 1.
+97s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [DP3] {}
+97s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - NOT_MOVING - [] {}
+98s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - NOT_MOVING - [] {}
+99s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [DP3] {}
+100s: Elevator 2 [Idle]  - Floor 8 - IDLE_STATE - NOT_MOVING - [] {}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   | X |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : | X |   | ⬆️V5->10  V6->2   
+Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [DP3] {}
+Elevator 2 [Idle]  - Floor 8 - IDLE_STATE - NOT_MOVING - [] {}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+101s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [DP3] {}
+104s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [DP3] {}
+106s: Visitor 5 responsibly requested floor 10 on elevator 1
+106s: Visitor 6 responsibly requested floor 2 on elevator 1
+106s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V5, V6] {2,10,}
+108s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V5, V6] {2,10,}
+110s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V5, V6] {2,10,}
+111s:  Delivery Person 3 joining floor 1, heading to floor 11
+111s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 8 - IDLE_STATE - MOVING_DOWN - [] {}
+111s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 8 - ACCELERATING - MOVING_DOWN - [] {}
+113s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [V5, V6] {2,10,}
+114s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [] {}
+115s: Elevator 1 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [V5, V6] {10,}
+116s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+118s: Elevator 1 [Active]  - Floor 2 - DOORS_OPENING - MOVING_UP - [V5, V6] {10,}
+118s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+120s: Elevator 1 [Active]  - Floor 2 - DOORS_OPEN - MOVING_UP - [V5] {10,}
+120s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+121s: Elevator 1 [Active]  - Floor 2 - DOORS_CLOSING - MOVING_UP - [V5] {10,}
+122s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+123s: Elevator 1 [Active]  - Floor 2 - ACCELERATING - MOVING_UP - [V5] {10,}
+124s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+126s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [V5] {10,}
+126s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+126s: Adding Worker 7 [-> 14] to floor 1.
+127s: Adding Delivery Person 8 [-> 11] to floor 1.
+128s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [V5] {10,}
+128s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+130s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [V5] {10,}
+131s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+132s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [V5] {10,}
+133s: Delivery Person 3 responsibly requested floor 11 on elevator 2
+133s: Worker 7 responsibly requested floor 14 on elevator 2
+133s: Delivery Person 8 responsibly requested floor 11 on elevator 2
+133s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [DP3, W7, DP8] {11,14,}
+134s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_UP - [V5] {10,}
+135s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+136s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_UP - [V5] {10,}
+137s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+138s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [V5] {10,}
+140s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+140s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_UP - [V5] {10,}
+142s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+142s: Elevator 1 [Active]  - Floor 10 - DECELERATING - NOT_MOVING - [V5] {}
+144s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+145s: Elevator 1 [Active]  - Floor 10 - DOORS_OPENING - NOT_MOVING - [V5] {}
+146s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+147s: Elevator 1 [Active]  - Floor 10 - DOORS_OPEN - NOT_MOVING - [] {}
+148s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+148s: Elevator 1 [Active]  - Floor 10 - DOORS_CLOSING - NOT_MOVING - [] {}
+148s: Adding Visitor 9 [-> 13] to floor 1.
+150s: Elevator 1 [Idle]  - Floor 10 - IDLE_STATE - NOT_MOVING - [] {}
+150s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 10 - IDLE_STATE - MOVING_DOWN - [] {}
+150s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+150s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 10 - ACCELERATING - MOVING_DOWN - [] {}
+152s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+153s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [] {}
+154s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+155s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [] {}
+156s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+157s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [] {}
+158s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [DP3, W7, DP8] {11,14,}
+159s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+160s: Elevator 2 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [DP3, W7, DP8] {14,}
+161s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+163s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [DP3, W7, DP8] {14,}
+163s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+165s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [W7, DP8] {14,}
+165s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+165s: Adding Delivery Person 10 [-> 4] to floor 1.
+166s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [W7, DP8] {14,}
+167s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+168s: Elevator 2 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [W7, DP8] {14,}
+169s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+171s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [W7, DP8] {14,}
+171s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+173s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [W7, DP8] {14,}
+174s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+175s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_UP - [W7, DP8] {14,}
+176s: Visitor 9 responsibly requested floor 13 on elevator 1
+176s: Delivery Person 10 responsibly requested floor 4 on elevator 1
+176s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V9, DP10] {4,13,}
+177s: Elevator 2 [Active]  - Floor 14 - DECELERATING - NOT_MOVING - [W7, DP8] {}
+178s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V9, DP10] {4,13,}
+180s: Elevator 2 [Active]  - Floor 14 - DOORS_OPENING - NOT_MOVING - [W7, DP8] {}
+180s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V9, DP10] {4,13,}
+182s: Elevator 2 [Active]  - Floor 14 - DOORS_OPEN - NOT_MOVING - [] {}
+183s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [V9, DP10] {4,13,}
+184s: Elevator 2 [Active]  - Floor 14 - DOORS_CLOSING - NOT_MOVING - [] {}
+185s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [V9, DP10] {4,13,}
+186s: Elevator 2 [Idle]  - Floor 14 - IDLE_STATE - NOT_MOVING - [] {}
+187s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [V9, DP10] {4,13,}
+187s:  Delivery Person 8 joining floor 14, heading to floor 11
+187s: Elevator 2 [Active]  - Floor 14 - DOORS_OPENING - MOVING_DOWN - [] {}
+188s: Adding Delivery Person 11 [-> 13] to floor 1.
+189s: Elevator 1 [Active]  - Floor 4 - DECELERATING - MOVING_UP - [V9, DP10] {13,}
+189s: Delivery Person 8 responsibly requested floor 11 on elevator 2
+189s: Elevator 2 [Active]  - Floor 14 - DOORS_OPEN - MOVING_DOWN - [DP8] {11,}
+190s: Elevator 2 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_DOWN - [DP8] {11,}
+192s: Elevator 1 [Active]  - Floor 4 - DOORS_OPENING - MOVING_UP - [V9, DP10] {13,}
+192s: Elevator 2 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [DP8] {11,}
+194s: Elevator 1 [Active]  - Floor 4 - DOORS_OPEN - MOVING_UP - [V9, DP10] {13,}
+194s: Adding Visitor 12 [-> 12] to floor 1.
+195s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_DOWN - [DP8] {11,}
+195s: Elevator 1 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_UP - [V9, DP10] {13,}
+197s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_DOWN - [DP8] {11,}
+197s: Elevator 1 [Active]  - Floor 4 - ACCELERATING - MOVING_UP - [V9, DP10] {13,}
+199s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [DP8] {11,}
+199s: Adding Jerk 13 [-> 5] to floor 1.
+200s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [V9, DP10] {13,}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   | X |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : | X |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️DP11->13  V12->12  J13->5   
+Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [V9, DP10] {13,}
+Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [DP8] {11,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+201s: Elevator 2 [Active]  - Floor 11 - DECELERATING - NOT_MOVING - [DP8] {}
+202s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [V9, DP10] {13,}
+204s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - NOT_MOVING - [DP8] {}
+204s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_UP - [V9, DP10] {13,}
+206s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - NOT_MOVING - [] {}
+206s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_UP - [V9, DP10] {13,}
+207s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - NOT_MOVING - [] {}
+208s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [V9, DP10] {13,}
+209s: Elevator 2 [Idle]  - Floor 11 - IDLE_STATE - NOT_MOVING - [] {}
+209s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 11 - IDLE_STATE - MOVING_DOWN - [] {}
+209s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 11 - ACCELERATING - MOVING_DOWN - [] {}
+210s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_UP - [V9, DP10] {13,}
+212s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [] {}
+212s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_UP - [V9, DP10] {13,}
+212s:  Delivery Person 3 joining floor 11, heading to floor 8
+214s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [] {}
+214s: Elevator 1 [Active]  - Floor 12 - MOVING - MOVING_UP - [V9, DP10] {13,}
+216s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [] {}
+216s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_UP - [V9, DP10] {13,}
+218s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [] {}
+218s: Elevator 1 [Active]  - Floor 13 - DECELERATING - NOT_MOVING - [V9, DP10] {}
+220s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+221s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - NOT_MOVING - [V9, DP10] {}
+222s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+222s: Adding Visitor 14 [-> 11] to floor 1.
+223s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - NOT_MOVING - [] {}
+224s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+225s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - NOT_MOVING - [] {}
+226s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+227s: Elevator 1 [Idle]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+227s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+227s: Elevator 1 [Disable]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+228s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+228s:  Delivery Person 10 joining floor 13, heading to floor 4
+230s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+232s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+235s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+237s: Delivery Person 11 responsibly requested floor 13 on elevator 2
+237s: Visitor 12 responsibly requested floor 12 on elevator 2
+237s: Visitor 14 responsibly requested floor 11 on elevator 2
+237s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+240s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+242s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+245s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+247s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+249s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+250s: Adding Visitor 15 [-> 14] to floor 1.
+251s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [DP11, V12, J13, V14] {5,6,7,8,9,10,11,12,13,14,15,}
+253s: Elevator 2 [Active]  - Floor 5 - DECELERATING - MOVING_UP - [DP11, V12, J13, V14] {6,7,8,9,10,11,12,13,14,15,}
+256s: Elevator 2 [Active]  - Floor 5 - DOORS_OPENING - MOVING_UP - [DP11, V12, J13, V14] {6,7,8,9,10,11,12,13,14,15,}
+258s: Elevator 2 [Active]  - Floor 5 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {6,7,8,9,10,11,12,13,14,15,}
+259s: Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {6,7,8,9,10,11,12,13,14,15,}
+261s: Elevator 2 [Active]  - Floor 5 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {6,7,8,9,10,11,12,13,14,15,}
+264s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [DP11, V12, V14] {6,7,8,9,10,11,12,13,14,15,}
+265s: Adding Visitor 16 [-> 9] to floor 1.
+266s: Elevator 2 [Active]  - Floor 6 - DECELERATING - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+268s:  Delivery Person 8 joining floor 11, heading to floor 4
+269s: Elevator 2 [Active]  - Floor 6 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+271s: Elevator 2 [Active]  - Floor 6 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+272s: Elevator 2 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+274s: Elevator 2 [Active]  - Floor 6 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+277s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [DP11, V12, V14] {7,8,9,10,11,12,13,14,15,}
+279s: Elevator 2 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+282s: Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+284s: Elevator 2 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+285s: Elevator 2 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+285s: Adding Jerk 17 [-> 11] to floor 1.
+287s: Elevator 2 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+290s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [DP11, V12, V14] {8,9,10,11,12,13,14,15,}
+292s: Elevator 2 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+295s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+295s: Adding Visitor 18 [-> 5] to floor 1.
+297s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+297s: Adding Stoner 19 [-> 7] to floor 1.
+298s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+300s: Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+15 : |   |   |  
+14 : |   |   |  
+13 : | X |   | ⬇️DP10->4   
+12 : |   |   |  
+11 : |   |   | ⬇️DP3->8  DP8->4   
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   | X |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️V15->14  V16->9  J17->11  V18->5  S19->7   
+Elevator 1 [Disable]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+303s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [DP11, V12, V14] {9,10,11,12,13,14,15,}
+305s: Elevator 2 [Active]  - Floor 9 - DECELERATING - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+306s: Adding Visitor 20 [-> 15] to floor 1.
+308s: Elevator 2 [Active]  - Floor 9 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+310s: Elevator 2 [Active]  - Floor 9 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+311s: Elevator 2 [Active]  - Floor 9 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+313s: Elevator 2 [Active]  - Floor 9 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+316s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [DP11, V12, V14] {10,11,12,13,14,15,}
+318s: Elevator 2 [Active]  - Floor 10 - DECELERATING - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+321s: Elevator 2 [Active]  - Floor 10 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+322s: Adding Visitor 21 [-> 13] to floor 1.
+323s: Elevator 2 [Active]  - Floor 10 - DOORS_OPEN - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+324s: Elevator 2 [Active]  - Floor 10 - DOORS_CLOSING - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+326s: Elevator 2 [Active]  - Floor 10 - ACCELERATING - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+329s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [DP11, V12, V14] {11,12,13,14,15,}
+331s: Elevator 2 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [DP11, V12, V14] {12,13,14,15,}
+331s: Adding Visitor 22 [-> 12] to floor 1.
+334s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [DP11, V12, V14] {12,13,14,15,}
+336s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [DP11, V12] {12,13,14,15,}
+337s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [DP11, V12] {12,13,14,15,}
+338s: Adding Visitor 23 [-> 11] to floor 1.
+339s: Elevator 2 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [DP11, V12] {12,13,14,15,}
+342s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [DP11, V12] {12,13,14,15,}
+344s: Elevator 2 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [DP11, V12] {13,14,15,}
+347s: Elevator 2 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [DP11, V12] {13,14,15,}
+349s: Elevator 2 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [DP11] {13,14,15,}
+350s: Elevator 2 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [DP11] {13,14,15,}
+352s: Elevator 2 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [DP11] {13,14,15,}
+355s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [DP11] {13,14,15,}
+357s: Elevator 2 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [DP11] {14,15,}
+360s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - MOVING_UP - [DP11] {14,15,}
+360s: Adding Visitor 24 [-> 2] to floor 1.
+362s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - MOVING_UP - [DP11] {14,15,}
+363s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_UP - [DP11] {14,15,}
+365s: Elevator 2 [Active]  - Floor 13 - ACCELERATING - MOVING_UP - [DP11] {14,15,}
+368s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_UP - [DP11] {14,15,}
+370s: Elevator 2 [Active]  - Floor 14 - DECELERATING - MOVING_UP - [DP11] {15,}
+370s: Adding Visitor 25 [-> 3] to floor 1.
+373s: Elevator 2 [Active]  - Floor 14 - DOORS_OPENING - MOVING_UP - [DP11] {15,}
+375s: Elevator 2 [Active]  - Floor 14 - DOORS_OPEN - MOVING_UP - [] {15,}
+376s: Elevator 2 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_UP - [] {15,}
+378s: Elevator 2 [Active]  - Floor 14 - ACCELERATING - MOVING_UP - [] {15,}
+380s:  Delivery Person 11 joining floor 14, heading to floor 13
+381s: Elevator 2 [Active]  - Floor 15 - MOVING - MOVING_UP - [] {15,}
+383s: Elevator 2 [Active]  - Floor 15 - DECELERATING - NOT_MOVING - [] {}
+386s: Elevator 2 [Active]  - Floor 15 - DOORS_OPENING - NOT_MOVING - [] {}
+388s: Elevator 2 [Active]  - Floor 15 - DOORS_OPEN - NOT_MOVING - [] {}
+389s: Elevator 2 [Active]  - Floor 15 - DOORS_CLOSING - NOT_MOVING - [] {}
+391s: Elevator 2 [Idle]  - Floor 15 - IDLE_STATE - NOT_MOVING - [] {}
+391s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - IDLE_STATE - NOT_MOVING - [] {}
+391s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - IDLE_STATE - NOT_MOVING - [] {}
+391s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - IDLE_STATE - MOVING_DOWN - [] {}
+391s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - ACCELERATING - MOVING_DOWN - [] {}
+394s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 14 - MOVING - MOVING_DOWN - [] {}
+396s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 13 - MOVING - MOVING_DOWN - [] {}
+396s: Adding Child 26 [-> 14] to floor 1.
+398s: Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 13 - DECELERATING - MOVING_DOWN - [] {}
+15 : |   |   |  
+14 : |   |   | ⬇️DP11->13   
+13 : | X | X | ⬇️DP10->4   
+12 : |   |   |  
+11 : |   |   | ⬇️DP3->8  DP8->4   
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️V15->14  V16->9  J17->11  V18->5  S19->7  V20->15  V21->13  V22->12  V23->11  V24->2  V25->3  C26->14   
+Elevator 1 [Disable]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+Elevator 2 [Dispatching to 13 MOVING_DOWN]  - Floor 13 - DECELERATING - MOVING_DOWN - [] {}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+401s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - MOVING_DOWN - [] {}
+403s: Delivery Person 10 responsibly requested floor 4 on elevator 2
+403s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - MOVING_DOWN - [DP10] {4,}
+404s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_DOWN - [DP10] {4,}
+406s: Elevator 2 [Active]  - Floor 13 - ACCELERATING - MOVING_DOWN - [DP10] {4,}
+409s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_DOWN - [DP10] {4,}
+411s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [DP10] {4,}
+413s: Elevator 2 [Active]  - Floor 11 - DECELERATING - MOVING_DOWN - [DP10] {4,}
+415s: Adding Worker 27 [-> 7] to floor 1.
+416s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - MOVING_DOWN - [DP10] {4,}
+418s: Delivery Person 3 responsibly requested floor 8 on elevator 2
+418s: Delivery Person 8 responsibly requested floor 4 on elevator 2
+418s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+420s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+422s: Elevator 2 [Active]  - Floor 11 - ACCELERATING - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+425s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+426s: Adding Child 28 [-> 12] to floor 1.
+427s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+429s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_DOWN - [DP10, DP3, DP8] {4,8,}
+431s: Elevator 2 [Active]  - Floor 8 - DECELERATING - MOVING_DOWN - [DP10, DP3, DP8] {4,}
+434s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - MOVING_DOWN - [DP10, DP3, DP8] {4,}
+436s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - MOVING_DOWN - [DP10, DP8] {4,}
+436s: Adding Jerk 29 [-> 5] to floor 1.
+437s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_DOWN - [DP10, DP8] {4,}
+439s: Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_DOWN - [DP10, DP8] {4,}
+442s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_DOWN - [DP10, DP8] {4,}
+444s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_DOWN - [DP10, DP8] {4,}
+446s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_DOWN - [DP10, DP8] {4,}
+448s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_DOWN - [DP10, DP8] {4,}
+450s: Elevator 2 [Active]  - Floor 4 - DECELERATING - NOT_MOVING - [DP10, DP8] {}
+453s: Elevator 2 [Active]  - Floor 4 - DOORS_OPENING - NOT_MOVING - [DP10, DP8] {}
+455s: Elevator 2 [Active]  - Floor 4 - DOORS_OPEN - NOT_MOVING - [] {}
+457s: Elevator 2 [Active]  - Floor 4 - DOORS_CLOSING - NOT_MOVING - [] {}
+459s: Elevator 2 [Idle]  - Floor 4 - IDLE_STATE - NOT_MOVING - [] {}
+459s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - IDLE_STATE - MOVING_DOWN - [] {}
+459s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - ACCELERATING - MOVING_DOWN - [] {}
+462s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+464s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+464s: Adding Child 30 [-> 14] to floor 1.
+466s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+468s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+471s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+473s: Visitor 15 responsibly requested floor 14 on elevator 2
+473s: Visitor 16 responsibly requested floor 9 on elevator 2
+473s: Visitor 18 responsibly requested floor 5 on elevator 2
+473s: Stoner 19 clumsily requested floors 7 and 6 on elevator 2
+473s: Visitor 20 responsibly requested floor 15 on elevator 2
+473s: Visitor 21 responsibly requested floor 13 on elevator 2
+473s: Visitor 22 responsibly requested floor 12 on elevator 2
+473s: Visitor 23 responsibly requested floor 11 on elevator 2
+473s: Visitor 24 responsibly requested floor 2 on elevator 2
+473s: Child 26 was too awkward to board on elevator on floor 1 now has threshold 6
+473s: Child 28 was too awkward to board on elevator on floor 1 now has threshold 6
+473s: Child 30 was too awkward to board on elevator on floor 1 now has threshold 6
+473s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {2,5,6,7,9,11,12,13,14,15,}
+479s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {2,5,6,7,9,11,12,13,14,15,}
+481s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {2,5,6,7,9,11,12,13,14,15,}
+484s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {2,5,6,7,9,11,12,13,14,15,}
+486s: Elevator 2 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {5,6,7,9,11,12,13,14,15,}
+489s: Elevator 2 [Active]  - Floor 2 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23, V24] {5,6,7,9,11,12,13,14,15,}
+491s: Elevator 2 [Active]  - Floor 2 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+492s: Elevator 2 [Active]  - Floor 2 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+493s: Adding Visitor 31 [-> 7] to floor 1.
+494s: Elevator 2 [Active]  - Floor 2 - ACCELERATING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+497s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+15 : |   |   |  
+14 : |   |   | ⬇️DP11->13   
+13 : | X |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   | X |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️V25->3  C26->14  W27->7  C28->12  J29->5  C30->14  V31->7   
+Elevator 1 [Disable]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+499s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+500s: Adding Child 32 [-> 13] to floor 1.
+501s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {5,6,7,9,11,12,13,14,15,}
+503s: Elevator 2 [Active]  - Floor 5 - DECELERATING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+506s: Elevator 2 [Active]  - Floor 5 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, V18, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+507s:  Delivery Person 3 joining floor 8, heading to floor 15
+508s: Elevator 2 [Active]  - Floor 5 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+509s: Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+510s:  Delivery Person 8 joining floor 4, heading to floor 13
+511s: Elevator 2 [Active]  - Floor 5 - ACCELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+512s: Adding Visitor 33 [-> 15] to floor 1.
+514s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {6,7,9,11,12,13,14,15,}
+514s:  Delivery Person 10 joining floor 4, heading to floor 12
+516s: Elevator 2 [Active]  - Floor 6 - DECELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+519s: Elevator 2 [Active]  - Floor 6 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+521s: Elevator 2 [Active]  - Floor 6 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+522s: Elevator 2 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+524s: Elevator 2 [Active]  - Floor 6 - ACCELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+527s: Elevator 1 [Disable]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+527s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 13 - IDLE_STATE - MOVING_DOWN - [] {}
+527s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {7,9,11,12,13,14,15,}
+527s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 13 - ACCELERATING - MOVING_DOWN - [] {}
+529s: Elevator 2 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+530s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 12 - MOVING - MOVING_DOWN - [] {}
+532s: Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+532s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 11 - MOVING - MOVING_DOWN - [] {}
+534s: Elevator 2 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+534s: Elevator 1 [Dispatching to 11 MOVING_DOWN]  - Floor 11 - DECELERATING - NOT_MOVING - [] {}
+534s: Adding Worker 34 [-> 8] to floor 1.
+535s: Elevator 2 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+537s: Elevator 1 [Active]  - Floor 11 - DOORS_OPENING - NOT_MOVING - [] {}
+537s: Elevator 2 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+539s: Elevator 1 [Active]  - Floor 11 - DOORS_OPEN - NOT_MOVING - [] {}
+540s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+540s: Elevator 1 [Active]  - Floor 11 - DOORS_CLOSING - NOT_MOVING - [] {}
+542s: Elevator 1 [Idle]  - Floor 11 - IDLE_STATE - NOT_MOVING - [] {}
+542s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 11 - IDLE_STATE - MOVING_UP - [] {}
+542s: Elevator 2 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+542s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 11 - ACCELERATING - MOVING_UP - [] {}
+543s: Adding Delivery Person 35 [-> 5] to floor 1.
+545s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+545s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 12 - MOVING - MOVING_UP - [] {}
+547s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+547s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 13 - MOVING - MOVING_UP - [] {}
+548s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+549s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 14 - MOVING - MOVING_UP - [] {}
+550s: Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+551s: Elevator 1 [Dispatching to 14 MOVING_DOWN]  - Floor 14 - DECELERATING - NOT_MOVING - [] {}
+553s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {9,11,12,13,14,15,}
+554s: Elevator 1 [Active]  - Floor 14 - DOORS_OPENING - NOT_MOVING - [] {}
+554s: Adding Visitor 36 [-> 7] to floor 1.
+555s: Elevator 2 [Active]  - Floor 9 - DECELERATING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+556s: Delivery Person 11 responsibly requested floor 13 on elevator 1
+556s: Elevator 1 [Active]  - Floor 14 - DOORS_OPEN - NOT_MOVING - [DP11] {13,}
+557s: Elevator 1 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_DOWN - [DP11] {13,}
+558s: Elevator 2 [Active]  - Floor 9 - DOORS_OPENING - MOVING_UP - [V15, V16, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+559s: Elevator 1 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [DP11] {13,}
+560s: Elevator 2 [Active]  - Floor 9 - DOORS_OPEN - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+561s: Elevator 2 [Active]  - Floor 9 - DOORS_CLOSING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+562s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_DOWN - [DP11] {13,}
+563s: Elevator 2 [Active]  - Floor 9 - ACCELERATING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+564s: Elevator 1 [Active]  - Floor 13 - DECELERATING - NOT_MOVING - [DP11] {}
+566s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+567s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - NOT_MOVING - [DP11] {}
+568s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {11,12,13,14,15,}
+569s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - NOT_MOVING - [] {}
+570s: Elevator 2 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {12,13,14,15,}
+570s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - NOT_MOVING - [] {}
+572s: Elevator 1 [Idle]  - Floor 13 - IDLE_STATE - NOT_MOVING - [] {}
+572s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 13 - IDLE_STATE - MOVING_DOWN - [] {}
+572s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 13 - ACCELERATING - MOVING_DOWN - [] {}
+573s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [V15, J17, S19, V20, V21, V22, V23] {12,13,14,15,}
+575s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 12 - MOVING - MOVING_DOWN - [] {}
+575s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [V15, S19, V20, V21, V22] {12,13,14,15,}
+577s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 11 - MOVING - MOVING_DOWN - [] {}
+577s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [V15, S19, V20, V21, V22] {12,13,14,15,}
+579s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [] {}
+579s: Elevator 2 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [V15, S19, V20, V21, V22] {12,13,14,15,}
+581s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [] {}
+581s: Adding Worker 37 [-> 4] to floor 1.
+582s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [V15, S19, V20, V21, V22] {12,13,14,15,}
+583s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [] {}
+584s: Elevator 2 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [V15, S19, V20, V21, V22] {13,14,15,}
+585s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [] {}
+587s: Elevator 2 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [V15, S19, V20, V21, V22] {13,14,15,}
+587s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+589s: Elevator 2 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [V15, S19, V20, V21] {13,14,15,}
+589s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [] {}
+590s: Elevator 2 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [V15, S19, V20, V21] {13,14,15,}
+591s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [] {}
+592s: Elevator 2 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [V15, S19, V20, V21] {13,14,15,}
+593s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [] {}
+593s: Adding Jerk 38 [-> 12] to floor 1.
+595s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [V15, S19, V20, V21] {13,14,15,}
+595s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [] {}
+596s: Adding Worker 39 [-> 8] to floor 1.
+597s: Elevator 2 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [V15, S19, V20, V21] {14,15,}
+597s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   | X |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   | ⬆️DP3->15   
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   | ⬆️DP8->13  DP10->12   
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : | X |   | ⬆️V25->3  C26->14  W27->7  C28->12  J29->5  C30->14  V31->7  C32->13  V33->15  W34->8  DP35->5  V36->7  W37->4  J38->12  W39->8   
+Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+Elevator 2 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [V15, S19, V20, V21] {14,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+599s: Elevator 1 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+600s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - MOVING_UP - [V15, S19, V20, V21] {14,15,}
+602s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+602s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - MOVING_UP - [V15, S19, V20] {14,15,}
+603s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_UP - [V15, S19, V20] {14,15,}
+604s: Visitor 25 responsibly requested floor 3 on elevator 1
+604s: Child 26 clumsily requested floors 14 and 13 on elevator 1
+604s: Worker 27 responsibly requested floor 7 on elevator 1
+604s: Child 28 clumsily requested floors 12 and 11 on elevator 1
+604s: Child 30 clumsily requested floors 14 and 13 on elevator 1
+604s: Visitor 31 responsibly requested floor 7 on elevator 1
+604s: Child 32 was too awkward to board on elevator on floor 1 now has threshold 6
+604s: Visitor 33 responsibly requested floor 15 on elevator 1
+604s: Visitor 36 responsibly requested floor 7 on elevator 1
+604s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {3,5,6,7,8,9,10,11,12,13,14,15,}
+605s: Elevator 2 [Active]  - Floor 13 - ACCELERATING - MOVING_UP - [V15, S19, V20] {14,15,}
+608s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_UP - [V15, S19, V20] {14,15,}
+610s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {3,5,6,7,8,9,10,11,12,13,14,15,}
+610s: Elevator 2 [Active]  - Floor 14 - DECELERATING - MOVING_UP - [V15, S19, V20] {15,}
+612s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {3,5,6,7,8,9,10,11,12,13,14,15,}
+613s: Elevator 2 [Active]  - Floor 14 - DOORS_OPENING - MOVING_UP - [V15, S19, V20] {15,}
+615s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {3,5,6,7,8,9,10,11,12,13,14,15,}
+615s: Elevator 2 [Active]  - Floor 14 - DOORS_OPEN - MOVING_UP - [S19, V20] {15,}
+616s: Elevator 2 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_UP - [S19, V20] {15,}
+617s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {3,5,6,7,8,9,10,11,12,13,14,15,}
+618s: Elevator 2 [Active]  - Floor 14 - ACCELERATING - MOVING_UP - [S19, V20] {15,}
+619s: Elevator 1 [Active]  - Floor 3 - DECELERATING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+621s: Elevator 2 [Active]  - Floor 15 - MOVING - MOVING_UP - [S19, V20] {15,}
+622s: Elevator 1 [Active]  - Floor 3 - DOORS_OPENING - MOVING_UP - [V25, C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+622s:  Delivery Person 11 joining floor 13, heading to floor 1
+623s: Elevator 2 [Active]  - Floor 15 - DECELERATING - NOT_MOVING - [S19, V20] {}
+624s: Elevator 1 [Active]  - Floor 3 - DOORS_OPEN - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+624s: Adding Child 40 [-> 3] to floor 1.
+625s: Elevator 1 [Active]  - Floor 3 - DOORS_CLOSING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+625s:  Worker 2 joining floor 7, heading to floor 11
+626s: Elevator 2 [Active]  - Floor 15 - DOORS_OPENING - NOT_MOVING - [S19, V20] {}
+627s: Elevator 1 [Active]  - Floor 3 - ACCELERATING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+628s: Elevator 2 [Active]  - Floor 15 - DOORS_OPEN - NOT_MOVING - [S19] {}
+629s: Elevator 2 [Active]  - Floor 15 - DOORS_CLOSING - NOT_MOVING - [S19] {}
+630s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+631s: Elevator 2 [Idle]  - Floor 15 - IDLE_STATE - NOT_MOVING - [S19] {}
+631s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 15 - IDLE_STATE - MOVING_DOWN - [S19] {}
+631s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S19] {}
+632s: Elevator 1 [Active]  - Floor 4 - DECELERATING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+634s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 14 - MOVING - MOVING_DOWN - [S19] {}
+635s: Elevator 1 [Active]  - Floor 4 - DOORS_OPENING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+636s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 13 - MOVING - MOVING_DOWN - [S19] {}
+637s: Elevator 1 [Active]  - Floor 4 - DOORS_OPEN - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+638s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 12 - MOVING - MOVING_DOWN - [S19] {}
+638s: Elevator 1 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+640s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 11 - MOVING - MOVING_DOWN - [S19] {}
+640s: Elevator 1 [Active]  - Floor 4 - ACCELERATING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+642s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [S19] {}
+643s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {5,6,7,8,9,10,11,12,13,14,15,}
+644s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [S19] {}
+645s: Elevator 1 [Active]  - Floor 5 - DECELERATING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+646s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [S19] {}
+648s: Elevator 1 [Active]  - Floor 5 - DOORS_OPENING - MOVING_UP - [C26, W27, C28, J29, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+648s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [S19] {}
+650s: Elevator 1 [Active]  - Floor 5 - DOORS_OPEN - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+650s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [S19] {}
+650s: Adding Visitor 41 [-> 2] to floor 1.
+651s: Elevator 1 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+652s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [S19] {}
+653s: Elevator 1 [Active]  - Floor 5 - ACCELERATING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+654s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [S19] {}
+656s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {6,7,8,9,10,11,12,13,14,15,}
+656s: Elevator 2 [Dispatching to 4 MOVING_UP]  - Floor 4 - DECELERATING - NOT_MOVING - [S19] {}
+658s: Elevator 1 [Active]  - Floor 6 - DECELERATING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+658s: Adding Visitor 42 [-> 8] to floor 1.
+659s: Elevator 2 [Active]  - Floor 4 - DOORS_OPENING - NOT_MOVING - [S19] {}
+661s: Elevator 1 [Active]  - Floor 6 - DOORS_OPENING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+661s: Delivery Person 8 responsibly requested floor 13 on elevator 2
+661s: Delivery Person 10 responsibly requested floor 12 on elevator 2
+661s: Elevator 2 [Active]  - Floor 4 - DOORS_OPEN - NOT_MOVING - [S19, DP8, DP10] {12,13,}
+663s: Elevator 1 [Active]  - Floor 6 - DOORS_OPEN - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+663s: Elevator 2 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+663s: Adding Visitor 43 [-> 6] to floor 1.
+664s: Elevator 1 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+665s: Elevator 2 [Active]  - Floor 4 - ACCELERATING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+666s: Elevator 1 [Active]  - Floor 6 - ACCELERATING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+668s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+669s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {7,8,9,10,11,12,13,14,15,}
+669s: Adding Visitor 44 [-> 7] to floor 1.
+670s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+671s: Elevator 1 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {8,9,10,11,12,13,14,15,}
+672s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+674s: Elevator 1 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [C26, W27, C28, C30, V31, V33, V36, J38] {8,9,10,11,12,13,14,15,}
+674s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+676s: Elevator 1 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33, J38] {8,9,10,11,12,13,14,15,}
+676s: Elevator 2 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+678s: Elevator 1 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33, J38] {8,9,10,11,12,13,14,15,}
+679s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [S19, DP8, DP10] {12,13,}
+680s: Elevator 1 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {8,9,10,11,12,13,14,15,}
+681s: Delivery Person 3 responsibly requested floor 15 on elevator 2
+681s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+682s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+683s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {8,9,10,11,12,13,14,15,}
+684s: Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+685s: Elevator 1 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+687s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+688s: Elevator 1 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+689s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+690s: Elevator 1 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+691s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+691s: Elevator 1 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+692s: Adding Delivery Person 45 [-> 7] to floor 1.
+693s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [S19, DP8, DP10, DP3] {12,13,15,}
+693s: Elevator 1 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+695s: Elevator 2 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [S19, DP8, DP10, DP3] {13,15,}
+696s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   | ⬇️DP11->1   
+12 : |   | X |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : | X |   |  
+ 8 : |   |   |  
+ 7 : |   |   | ⬆️W2->11   
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️C32->13  W34->8  DP35->5  W37->4  W39->8  C40->3  V41->2  V42->8  V43->6  V44->7  DP45->7   
+Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {9,10,11,12,13,14,15,}
+Elevator 2 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [S19, DP8, DP10, DP3] {13,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+698s: Elevator 2 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [S19, DP8, DP10, DP3] {13,15,}
+698s: Elevator 1 [Active]  - Floor 9 - DECELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+700s: Elevator 2 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [S19, DP8, DP3] {13,15,}
+701s: Elevator 1 [Active]  - Floor 9 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+701s: Elevator 2 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [S19, DP8, DP3] {13,15,}
+703s: Elevator 1 [Active]  - Floor 9 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+703s: Elevator 2 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [S19, DP8, DP3] {13,15,}
+704s: Elevator 1 [Active]  - Floor 9 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+706s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [S19, DP8, DP3] {13,15,}
+706s: Elevator 1 [Active]  - Floor 9 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+708s: Elevator 2 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [S19, DP8, DP3] {15,}
+709s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {10,11,12,13,14,15,}
+711s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - MOVING_UP - [S19, DP8, DP3] {15,}
+711s: Elevator 1 [Active]  - Floor 10 - DECELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+713s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - MOVING_UP - [S19, DP3] {15,}
+714s: Elevator 1 [Active]  - Floor 10 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+714s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_UP - [S19, DP3] {15,}
+716s: Elevator 1 [Active]  - Floor 10 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+716s: Elevator 2 [Active]  - Floor 13 - ACCELERATING - MOVING_UP - [S19, DP3] {15,}
+717s: Elevator 1 [Active]  - Floor 10 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+717s: Adding Visitor 46 [-> 4] to floor 1.
+719s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_UP - [S19, DP3] {15,}
+719s: Elevator 1 [Active]  - Floor 10 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+721s: Elevator 2 [Active]  - Floor 15 - MOVING - MOVING_UP - [S19, DP3] {15,}
+722s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {11,12,13,14,15,}
+723s: Elevator 2 [Active]  - Floor 15 - DECELERATING - NOT_MOVING - [S19, DP3] {}
+724s: Elevator 1 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+725s: Adding Child 47 [-> 12] to floor 1.
+726s: Elevator 2 [Active]  - Floor 15 - DOORS_OPENING - NOT_MOVING - [S19, DP3] {}
+727s: Elevator 1 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+728s: Elevator 2 [Active]  - Floor 15 - DOORS_OPEN - NOT_MOVING - [S19] {}
+729s: Elevator 1 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+729s: Elevator 2 [Active]  - Floor 15 - DOORS_CLOSING - NOT_MOVING - [S19] {}
+730s: Elevator 1 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+731s: Elevator 2 [Idle]  - Floor 15 - IDLE_STATE - NOT_MOVING - [S19] {}
+731s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 15 - IDLE_STATE - MOVING_DOWN - [S19] {}
+731s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S19] {}
+732s: Elevator 1 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+732s: Adding Visitor 48 [-> 15] to floor 1.
+734s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 14 - MOVING - MOVING_DOWN - [S19] {}
+735s: Elevator 1 [Active]  - Floor 12 - MOVING - MOVING_UP - [C26, C28, C30, V33, J38] {12,13,14,15,}
+736s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 13 - MOVING - MOVING_DOWN - [S19] {}
+737s: Elevator 1 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [C26, C28, C30, V33, J38] {13,14,15,}
+738s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 12 - MOVING - MOVING_DOWN - [S19] {}
+740s: Elevator 1 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33, J38] {13,14,15,}
+740s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 11 - MOVING - MOVING_DOWN - [S19] {}
+742s: Elevator 1 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [C26, C28, C30, V33] {13,14,15,}
+742s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [S19] {}
+743s: Elevator 1 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [C26, C28, C30, V33] {13,14,15,}
+744s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [S19] {}
+745s: Elevator 1 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [C26, C28, C30, V33] {13,14,15,}
+746s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [S19] {}
+748s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_UP - [C26, C28, C30, V33] {13,14,15,}
+748s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [S19] {}
+750s: Elevator 1 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [C26, C28, C30, V33] {14,15,}
+750s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [S19] {}
+752s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [S19] {}
+753s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - MOVING_UP - [C26, C28, C30, V33] {14,15,}
+753s: Adding Visitor 49 [-> 8] to floor 1.
+754s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [S19] {}
+755s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - MOVING_UP - [C26, C30, V33] {14,15,}
+756s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [S19] {}
+756s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_UP - [C26, C30, V33] {14,15,}
+758s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [S19] {}
+758s: Elevator 1 [Active]  - Floor 13 - ACCELERATING - MOVING_UP - [C26, C30, V33] {14,15,}
+759s:  Delivery Person 10 joining floor 12, heading to floor 6
+760s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [S19] {}
+760s:  Child 28 joining floor 13, heading to floor 12
+761s: Elevator 1 [Active]  - Floor 14 - MOVING - MOVING_UP - [C26, C30, V33] {14,15,}
+762s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [S19] {}
+763s: Elevator 1 [Active]  - Floor 14 - DECELERATING - MOVING_UP - [C26, C30, V33] {15,}
+765s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [S19] {}
+766s: Elevator 1 [Active]  - Floor 14 - DOORS_OPENING - MOVING_UP - [C26, C30, V33] {15,}
+767s: Child 32 clumsily requested floors 13 and 12 on elevator 2
+767s: Worker 34 responsibly requested floor 8 on elevator 2
+767s: Delivery Person 35 responsibly requested floor 5 on elevator 2
+767s: Worker 37 responsibly requested floor 4 on elevator 2
+767s: Child 40 clumsily requested floors 3 and 2 on elevator 2
+767s: Visitor 41 responsibly requested floor 2 on elevator 2
+767s: Visitor 42 responsibly requested floor 8 on elevator 2
+767s: Visitor 43 responsibly requested floor 6 on elevator 2
+767s: Visitor 44 responsibly requested floor 7 on elevator 2
+767s: Visitor 46 responsibly requested floor 4 on elevator 2
+767s: Child 47 was too awkward to board on elevator on floor 1 now has threshold 6
+767s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {2,3,4,5,6,7,8,12,13,}
+768s: Elevator 1 [Active]  - Floor 14 - DOORS_OPEN - MOVING_UP - [C26, C30, V33] {15,}
+768s: Adding Worker 50 [-> 9] to floor 1.
+769s: Elevator 1 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_UP - [C26, C30, V33] {15,}
+771s: Elevator 1 [Active]  - Floor 14 - ACCELERATING - MOVING_UP - [C26, C30, V33] {15,}
+773s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {2,3,4,5,6,7,8,12,13,}
+774s: Elevator 1 [Active]  - Floor 15 - MOVING - MOVING_UP - [C26, C30, V33] {15,}
+775s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {2,3,4,5,6,7,8,12,13,}
+776s: Elevator 1 [Active]  - Floor 15 - DECELERATING - NOT_MOVING - [C26, C30, V33] {}
+776s:  Delivery Person 8 joining floor 13, heading to floor 3
+778s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {2,3,4,5,6,7,8,12,13,}
+778s: Adding Child 51 [-> 5] to floor 1.
+779s: Elevator 1 [Active]  - Floor 15 - DOORS_OPENING - NOT_MOVING - [C26, C30, V33] {}
+780s: Elevator 2 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+781s: Elevator 1 [Active]  - Floor 15 - DOORS_OPEN - NOT_MOVING - [] {}
+783s: Elevator 2 [Active]  - Floor 2 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, W37, C40, V41, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+783s: Elevator 1 [Active]  - Floor 15 - DOORS_CLOSING - NOT_MOVING - [] {}
+785s: Elevator 1 [Idle]  - Floor 15 - IDLE_STATE - NOT_MOVING - [] {}
+785s: Elevator 1 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - IDLE_STATE - MOVING_DOWN - [] {}
+785s: Elevator 2 [Active]  - Floor 2 - DOORS_OPEN - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+785s: Elevator 1 [Dispatching to 13 MOVING_DOWN]  - Floor 15 - ACCELERATING - MOVING_DOWN - [] {}
+786s: Elevator 2 [Active]  - Floor 2 - DOORS_CLOSING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+786s:  Child 26 joining floor 15, heading to floor 14
+786s:  Child 30 joining floor 15, heading to floor 14
+786s: Adding Visitor 52 [-> 10] to floor 1.
+788s: Elevator 1 [Dispatching to 13 MOVING_DOWN]  - Floor 14 - MOVING - MOVING_DOWN - [] {}
+788s: Elevator 2 [Active]  - Floor 2 - ACCELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+790s: Elevator 1 [Dispatching to 13 MOVING_DOWN]  - Floor 13 - MOVING - MOVING_DOWN - [] {}
+791s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {3,4,5,6,7,8,12,13,}
+792s: Elevator 1 [Dispatching to 13 MOVING_DOWN]  - Floor 13 - DECELERATING - MOVING_DOWN - [] {}
+793s: Elevator 2 [Active]  - Floor 3 - DECELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+793s:  Delivery Person 3 joining floor 15, heading to floor 10
+795s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - MOVING_DOWN - [] {}
+796s: Elevator 2 [Active]  - Floor 3 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+15 : |   |   | ⬇️C26->14  C30->14  DP3->10   
+14 : |   |   |  
+13 : | X |   | ⬇️DP11->1  C28->12  DP8->3   
+12 : |   |   | ⬇️DP10->6   
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   | ⬆️W2->11   
+ 6 : |   |   |  
+ 5 : |   |   |  
+ 4 : |   |   |  
+ 3 : |   | X |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️W39->8  DP45->7  C47->12  V48->15  V49->8  W50->9  C51->5  V52->10   
+Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - MOVING_DOWN - [] {}
+Elevator 2 [Active]  - Floor 3 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+797s: Delivery Person 11 responsibly requested floor 1 on elevator 1
+797s: Child 28 clumsily requested floors 12 and 13 on elevator 1
+797s: Delivery Person 8 responsibly requested floor 3 on elevator 1
+797s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - MOVING_DOWN - [DP11, C28, DP8] {1,3,12,}
+797s: Adding Child 53 [-> 4] to floor 1.
+798s: Elevator 2 [Active]  - Floor 3 - DOORS_OPEN - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+799s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_DOWN - [DP11, C28, DP8] {1,3,12,}
+799s: Elevator 2 [Active]  - Floor 3 - DOORS_CLOSING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+801s: Elevator 1 [Active]  - Floor 13 - ACCELERATING - MOVING_DOWN - [DP11, C28, DP8] {1,3,12,}
+801s: Elevator 2 [Active]  - Floor 3 - ACCELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+804s: Elevator 1 [Active]  - Floor 12 - MOVING - MOVING_DOWN - [DP11, C28, DP8] {1,3,12,}
+804s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {4,5,6,7,8,12,13,}
+806s: Elevator 1 [Active]  - Floor 12 - DECELERATING - MOVING_DOWN - [DP11, C28, DP8] {1,3,}
+806s: Elevator 2 [Active]  - Floor 4 - DECELERATING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {5,6,7,8,12,13,}
+809s: Elevator 1 [Active]  - Floor 12 - DOORS_OPENING - MOVING_DOWN - [DP11, C28, DP8] {1,3,}
+809s: Elevator 2 [Active]  - Floor 4 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, W37, C40, V42, V43, V44, V46] {5,6,7,8,12,13,}
+811s: Delivery Person 10 responsibly requested floor 6 on elevator 1
+811s: Elevator 1 [Active]  - Floor 12 - DOORS_OPEN - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+811s: Elevator 2 [Active]  - Floor 4 - DOORS_OPEN - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {5,6,7,8,12,13,}
+811s: Adding Delivery Person 54 [-> 2] to floor 1.
+813s: Elevator 2 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {5,6,7,8,12,13,}
+813s: Elevator 1 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+815s: Elevator 2 [Active]  - Floor 4 - ACCELERATING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {5,6,7,8,12,13,}
+815s: Elevator 1 [Active]  - Floor 12 - ACCELERATING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+816s:  Child 40 joining floor 4, heading to floor 3
+818s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {5,6,7,8,12,13,}
+818s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+820s: Elevator 2 [Active]  - Floor 5 - DECELERATING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+820s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+822s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+823s: Elevator 2 [Active]  - Floor 5 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+824s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+825s: Elevator 2 [Active]  - Floor 5 - DOORS_OPEN - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+826s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+826s: Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+828s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,6,}
+828s: Elevator 2 [Active]  - Floor 5 - ACCELERATING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+828s: Adding Stoner 55 [-> 8] to floor 1.
+830s: Elevator 1 [Active]  - Floor 6 - DECELERATING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,}
+831s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {6,7,8,12,13,}
+833s: Elevator 1 [Active]  - Floor 6 - DOORS_OPENING - MOVING_DOWN - [DP11, DP8, DP10] {1,3,}
+833s: Elevator 2 [Active]  - Floor 6 - DECELERATING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {7,8,12,13,}
+835s: Elevator 1 [Active]  - Floor 6 - DOORS_OPEN - MOVING_DOWN - [DP11, DP8] {1,3,}
+836s: Elevator 2 [Active]  - Floor 6 - DOORS_OPENING - MOVING_UP - [C32, W34, DP35, V42, V43, V44] {7,8,12,13,}
+836s: Elevator 1 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_DOWN - [DP11, DP8] {1,3,}
+837s: Adding Worker 56 [-> 10] to floor 1.
+838s: Elevator 2 [Active]  - Floor 6 - DOORS_OPEN - MOVING_UP - [C32, W34, V42, V44] {7,8,12,13,}
+838s: Elevator 1 [Active]  - Floor 6 - ACCELERATING - MOVING_DOWN - [DP11, DP8] {1,3,}
+840s: Elevator 2 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_UP - [C32, W34, V42, V44] {7,8,12,13,}
+841s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_DOWN - [DP11, DP8] {1,3,}
+842s: Elevator 2 [Active]  - Floor 6 - ACCELERATING - MOVING_UP - [C32, W34, V42, V44] {7,8,12,13,}
+843s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_DOWN - [DP11, DP8] {1,3,}
+843s:  Delivery Person 35 joining floor 6, heading to floor 5
+845s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [C32, W34, V42, V44] {7,8,12,13,}
+845s: Elevator 1 [Active]  - Floor 4 - DECELERATING - MOVING_DOWN - [DP11, DP8] {1,3,}
+847s: Elevator 2 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [C32, W34, V42, V44] {8,12,13,}
+848s: Elevator 1 [Active]  - Floor 4 - DOORS_OPENING - MOVING_DOWN - [DP11, DP8] {1,3,}
+850s: Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [C32, W34, V42, V44] {8,12,13,}
+850s: Child 40 clumsily requested floors 3 and 4 on elevator 1
+850s: Elevator 1 [Active]  - Floor 4 - DOORS_OPEN - MOVING_DOWN - [DP11, DP8, C40] {1,3,}
+851s: Elevator 1 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_DOWN - [DP11, DP8, C40] {1,3,}
+852s: Worker 2 responsibly requested floor 11 on elevator 2
+852s: Elevator 2 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [C32, W34, V42, W2] {8,11,12,13,}
+853s: Elevator 1 [Active]  - Floor 4 - ACCELERATING - MOVING_DOWN - [DP11, DP8, C40] {1,3,}
+854s: Elevator 2 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [C32, W34, V42, W2] {8,11,12,13,}
+856s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_DOWN - [DP11, DP8, C40] {1,3,}
+856s: Elevator 2 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [C32, W34, V42, W2] {8,11,12,13,}
+856s: Adding Visitor 57 [-> 9] to floor 1.
+858s: Elevator 1 [Active]  - Floor 3 - DECELERATING - MOVING_DOWN - [DP11, DP8, C40] {1,}
+859s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [C32, W34, V42, W2] {8,11,12,13,}
+861s: Elevator 1 [Active]  - Floor 3 - DOORS_OPENING - MOVING_DOWN - [DP11, DP8, C40] {1,}
+861s: Elevator 2 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [C32, W34, V42, W2] {11,12,13,}
+863s: Elevator 1 [Active]  - Floor 3 - DOORS_OPEN - MOVING_DOWN - [DP11] {1,}
+864s: Elevator 2 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [C32, W34, V42, W2] {11,12,13,}
+865s: Elevator 1 [Active]  - Floor 3 - DOORS_CLOSING - MOVING_DOWN - [DP11] {1,}
+866s: Elevator 2 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [C32, W2] {11,12,13,}
+867s: Elevator 1 [Active]  - Floor 3 - ACCELERATING - MOVING_DOWN - [DP11] {1,}
+868s: Elevator 2 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [C32, W2] {11,12,13,}
+870s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_DOWN - [DP11] {1,}
+870s: Elevator 2 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [C32, W2] {11,12,13,}
+872s: Elevator 1 [Active]  - Floor 1 - MOVING - MOVING_DOWN - [DP11] {1,}
+873s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [C32, W2] {11,12,13,}
+874s: Elevator 1 [Active]  - Floor 1 - DECELERATING - MOVING_UP - [DP11] {}
+875s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [C32, W2] {11,12,13,}
+875s:  Delivery Person 10 joining floor 6, heading to floor 2
+877s: Elevator 1 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [DP11] {}
+877s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [C32, W2] {11,12,13,}
+Passenger DP11 Leaving the elevator.
+879s: Worker 39 responsibly requested floor 8 on elevator 1
+879s: Delivery Person 45 responsibly requested floor 7 on elevator 1
+879s: Child 47 clumsily requested floors 12 and 11 on elevator 1
+879s: Visitor 48 responsibly requested floor 15 on elevator 1
+879s: Visitor 49 responsibly requested floor 8 on elevator 1
+879s: Child 51 was too awkward to board on elevator on floor 1 now has threshold 6
+879s: Visitor 52 responsibly requested floor 10 on elevator 1
+879s: Child 53 was too awkward to board on elevator on floor 1 now has threshold 6
+879s: Stoner 55 clumsily requested floors 8 and 7 on elevator 1
+879s: Visitor 57 responsibly requested floor 9 on elevator 1
+879s: Elevator 1 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+879s: Elevator 2 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [C32, W2] {12,13,}
+879s: Adding Visitor 58 [-> 13] to floor 1.
+881s: Adding Child 59 [-> 15] to floor 1.
+882s: Elevator 2 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [C32, W2] {12,13,}
+884s: Elevator 1 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+884s: Elevator 2 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [C32] {12,13,}
+885s: Elevator 2 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [C32] {12,13,}
+886s: Elevator 1 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+887s: Elevator 2 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [C32] {12,13,}
+889s: Elevator 1 [Active]  - Floor 2 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+889s: Adding Jerk 60 [-> 15] to floor 1.
+890s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [C32] {12,13,}
+891s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+892s: Elevator 2 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [C32] {13,}
+893s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+895s: Elevator 2 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [C32] {13,}
+895s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+15 : |   |   | ⬇️C26->14  C30->14  DP3->10   
+14 : |   |   |  
+13 : |   |   |  
+12 : |   | X |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   |  
+ 6 : |   |   | ⬇️DP35->5  DP10->2   
+ 5 : | X |   |  
+ 4 : |   |   |  
+ 3 : |   |   |  
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️W50->9  C51->5  C53->4  DP54->2  W56->10  V58->13  C59->15  J60->15   
+Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+Elevator 2 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [C32] {13,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+897s: Elevator 2 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [C32] {13,}
+897s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+898s: Elevator 2 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [C32] {13,}
+899s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {7,8,9,10,11,12,15,}
+900s: Elevator 2 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [C32] {13,}
+901s: Elevator 1 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+903s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [C32] {13,}
+904s: Elevator 1 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+905s: Elevator 2 [Active]  - Floor 13 - DECELERATING - NOT_MOVING - [C32] {}
+906s: Elevator 1 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+907s: Elevator 1 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+908s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - NOT_MOVING - [C32] {}
+909s: Elevator 1 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+910s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - NOT_MOVING - [C32] {}
+911s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - NOT_MOVING - [C32] {}
+911s: Adding Worker 61 [-> 10] to floor 1.
+912s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {8,9,10,11,12,15,}
+913s: Elevator 2 [Idle]  - Floor 13 - IDLE_STATE - NOT_MOVING - [C32] {}
+913s: Elevator 2 [Dispatching to 15 MOVING_DOWN]  - Floor 13 - IDLE_STATE - MOVING_UP - [C32] {}
+913s: Elevator 2 [Dispatching to 15 MOVING_DOWN]  - Floor 13 - ACCELERATING - MOVING_UP - [C32] {}
+914s: Elevator 1 [Active]  - Floor 8 - DECELERATING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {9,10,11,12,15,}
+916s: Elevator 2 [Dispatching to 15 MOVING_DOWN]  - Floor 14 - MOVING - MOVING_UP - [C32] {}
+917s: Elevator 1 [Active]  - Floor 8 - DOORS_OPENING - MOVING_UP - [W39, DP45, C47, V48, V49, V52, S55, V57] {9,10,11,12,15,}
+918s: Elevator 2 [Dispatching to 15 MOVING_DOWN]  - Floor 15 - MOVING - MOVING_UP - [C32] {}
+919s: Elevator 1 [Active]  - Floor 8 - DOORS_OPEN - MOVING_UP - [C47, V48, V52, S55, V57] {9,10,11,12,15,}
+920s: Elevator 2 [Dispatching to 15 MOVING_DOWN]  - Floor 15 - DECELERATING - MOVING_DOWN - [C32] {}
+921s: Elevator 1 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_UP - [C47, V48, V52, S55, V57] {9,10,11,12,15,}
+923s: Elevator 2 [Active]  - Floor 15 - DOORS_OPENING - MOVING_DOWN - [C32] {}
+923s: Elevator 1 [Active]  - Floor 8 - ACCELERATING - MOVING_UP - [C47, V48, V52, S55, V57] {9,10,11,12,15,}
+924s:  Delivery Person 45 joining floor 8, heading to floor 7
+925s: Child 26 clumsily requested floors 14 and 15 on elevator 2
+925s: Child 30 clumsily requested floors 14 and 15 on elevator 2
+925s: Delivery Person 3 responsibly requested floor 10 on elevator 2
+925s: Elevator 2 [Active]  - Floor 15 - DOORS_OPEN - MOVING_DOWN - [C26, C30, DP3] {10,14,}
+926s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_UP - [C47, V48, V52, S55, V57] {9,10,11,12,15,}
+928s: Elevator 2 [Active]  - Floor 15 - DOORS_CLOSING - MOVING_DOWN - [C26, C30, DP3] {10,14,}
+928s: Elevator 1 [Active]  - Floor 9 - DECELERATING - MOVING_UP - [C47, V48, V52, S55, V57] {10,11,12,15,}
+930s: Elevator 2 [Active]  - Floor 15 - ACCELERATING - MOVING_DOWN - [C26, C30, DP3] {10,14,}
+930s:  Child 32 joining floor 15, heading to floor 13
+931s: Elevator 1 [Active]  - Floor 9 - DOORS_OPENING - MOVING_UP - [C47, V48, V52, S55, V57] {10,11,12,15,}
+932s:  Delivery Person 8 joining floor 3, heading to floor 8
+933s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_DOWN - [C26, C30, DP3] {10,14,}
+933s: Elevator 1 [Active]  - Floor 9 - DOORS_OPEN - MOVING_UP - [C47, V48, V52, S55] {10,11,12,15,}
+934s: Elevator 1 [Active]  - Floor 9 - DOORS_CLOSING - MOVING_UP - [C47, V48, V52, S55] {10,11,12,15,}
+934s: Adding Visitor 62 [-> 7] to floor 1.
+935s: Elevator 2 [Active]  - Floor 14 - DECELERATING - MOVING_DOWN - [C26, C30, DP3] {10,}
+936s: Elevator 1 [Active]  - Floor 9 - ACCELERATING - MOVING_UP - [C47, V48, V52, S55] {10,11,12,15,}
+938s: Elevator 2 [Active]  - Floor 14 - DOORS_OPENING - MOVING_DOWN - [C26, C30, DP3] {10,}
+939s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_UP - [C47, V48, V52, S55] {10,11,12,15,}
+940s: Elevator 2 [Active]  - Floor 14 - DOORS_OPEN - MOVING_DOWN - [DP3] {10,}
+941s: Elevator 1 [Active]  - Floor 10 - DECELERATING - MOVING_UP - [C47, V48, V52, S55] {11,12,15,}
+942s: Elevator 2 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_DOWN - [DP3] {10,}
+944s: Elevator 1 [Active]  - Floor 10 - DOORS_OPENING - MOVING_UP - [C47, V48, V52, S55] {11,12,15,}
+944s: Elevator 2 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [DP3] {10,}
+945s: Adding Stoner 63 [-> 4] to floor 1.
+946s: Elevator 1 [Active]  - Floor 10 - DOORS_OPEN - MOVING_UP - [C47, V48, S55] {11,12,15,}
+947s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_DOWN - [DP3] {10,}
+947s: Elevator 1 [Active]  - Floor 10 - DOORS_CLOSING - MOVING_UP - [C47, V48, S55] {11,12,15,}
+948s: Adding Visitor 64 [-> 2] to floor 1.
+949s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_DOWN - [DP3] {10,}
+949s: Elevator 1 [Active]  - Floor 10 - ACCELERATING - MOVING_UP - [C47, V48, S55] {11,12,15,}
+951s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [DP3] {10,}
+952s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_UP - [C47, V48, S55] {11,12,15,}
+953s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_DOWN - [DP3] {10,}
+954s: Elevator 1 [Active]  - Floor 11 - DECELERATING - MOVING_UP - [C47, V48, S55] {12,15,}
+955s: Elevator 2 [Active]  - Floor 10 - DECELERATING - NOT_MOVING - [DP3] {}
+956s: Adding Jerk 65 [-> 15] to floor 1.
+957s: Elevator 1 [Active]  - Floor 11 - DOORS_OPENING - MOVING_UP - [C47, V48, S55] {12,15,}
+958s: Elevator 2 [Active]  - Floor 10 - DOORS_OPENING - NOT_MOVING - [DP3] {}
+959s: Elevator 1 [Active]  - Floor 11 - DOORS_OPEN - MOVING_UP - [C47, V48, S55] {12,15,}
+960s: Elevator 2 [Active]  - Floor 10 - DOORS_OPEN - NOT_MOVING - [] {}
+960s: Elevator 1 [Active]  - Floor 11 - DOORS_CLOSING - MOVING_UP - [C47, V48, S55] {12,15,}
+961s: Elevator 2 [Active]  - Floor 10 - DOORS_CLOSING - NOT_MOVING - [] {}
+962s: Elevator 1 [Active]  - Floor 11 - ACCELERATING - MOVING_UP - [C47, V48, S55] {12,15,}
+963s: Elevator 2 [Idle]  - Floor 10 - IDLE_STATE - NOT_MOVING - [] {}
+963s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 10 - IDLE_STATE - MOVING_DOWN - [] {}
+963s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 10 - ACCELERATING - MOVING_DOWN - [] {}
+965s: Elevator 1 [Active]  - Floor 12 - MOVING - MOVING_UP - [C47, V48, S55] {12,15,}
+966s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 9 - MOVING - MOVING_DOWN - [] {}
+967s: Elevator 1 [Active]  - Floor 12 - DECELERATING - MOVING_UP - [C47, V48, S55] {15,}
+968s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 8 - MOVING - MOVING_DOWN - [] {}
+970s: Elevator 1 [Active]  - Floor 12 - DOORS_OPENING - MOVING_UP - [C47, V48, S55] {15,}
+970s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 7 - MOVING - MOVING_DOWN - [] {}
+972s: Elevator 1 [Active]  - Floor 12 - DOORS_OPEN - MOVING_UP - [C47, V48, S55] {15,}
+972s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 6 - MOVING - MOVING_DOWN - [] {}
+973s: Elevator 1 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_UP - [C47, V48, S55] {15,}
+974s: Elevator 2 [Dispatching to 6 MOVING_DOWN]  - Floor 6 - DECELERATING - MOVING_DOWN - [] {}
+975s: Elevator 1 [Active]  - Floor 12 - ACCELERATING - MOVING_UP - [C47, V48, S55] {15,}
+977s: Elevator 2 [Active]  - Floor 6 - DOORS_OPENING - MOVING_DOWN - [] {}
+977s: Adding Visitor 66 [-> 2] to floor 1.
+978s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_UP - [C47, V48, S55] {15,}
+979s: Delivery Person 35 responsibly requested floor 5 on elevator 2
+979s: Delivery Person 10 responsibly requested floor 2 on elevator 2
+979s: Elevator 2 [Active]  - Floor 6 - DOORS_OPEN - MOVING_DOWN - [DP35, DP10] {2,5,}
+980s: Elevator 1 [Active]  - Floor 14 - MOVING - MOVING_UP - [C47, V48, S55] {15,}
+981s: Elevator 2 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_DOWN - [DP35, DP10] {2,5,}
+982s: Elevator 1 [Active]  - Floor 15 - MOVING - MOVING_UP - [C47, V48, S55] {15,}
+983s: Elevator 2 [Active]  - Floor 6 - ACCELERATING - MOVING_DOWN - [DP35, DP10] {2,5,}
+984s: Elevator 1 [Active]  - Floor 15 - DECELERATING - MOVING_DOWN - [C47, V48, S55] {}
+986s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_DOWN - [DP35, DP10] {2,5,}
+987s: Elevator 1 [Active]  - Floor 15 - DOORS_OPENING - MOVING_DOWN - [C47, V48, S55] {}
+988s: Elevator 2 [Active]  - Floor 5 - DECELERATING - MOVING_DOWN - [DP35, DP10] {2,}
+989s: Child 32 clumsily requested floors 13 and 14 on elevator 1
+989s: Elevator 1 [Active]  - Floor 15 - DOORS_OPEN - MOVING_DOWN - [S55, C32] {13,14,}
+991s: Elevator 2 [Active]  - Floor 5 - DOORS_OPENING - MOVING_DOWN - [DP35, DP10] {2,}
+991s: Elevator 1 [Active]  - Floor 15 - DOORS_CLOSING - MOVING_DOWN - [S55, C32] {13,14,}
+993s: Elevator 2 [Active]  - Floor 5 - DOORS_OPEN - MOVING_DOWN - [DP10] {2,}
+993s: Elevator 1 [Active]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S55, C32] {13,14,}
+993s: Adding Visitor 67 [-> 13] to floor 1.
+994s: Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_DOWN - [DP10] {2,}
+994s:  Child 47 joining floor 15, heading to floor 12
+15 : | X |   | ⬇️C47->12   
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   | ⬇️DP45->7   
+ 7 : |   |   |  
+ 6 : |   |   |  
+ 5 : |   | X |  
+ 4 : |   |   |  
+ 3 : |   |   | ⬆️DP8->8   
+ 2 : |   |   |  
+ 1 : |   |   | ⬆️W50->9  C51->5  C53->4  DP54->2  W56->10  V58->13  C59->15  J60->15  W61->10  V62->7  S63->4  V64->2  J65->15  V66->2  V67->13   
+Elevator 1 [Active]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S55, C32] {13,14,}
+Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_DOWN - [DP10] {2,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+996s: Elevator 1 [Active]  - Floor 14 - MOVING - MOVING_DOWN - [S55, C32] {13,14,}
+996s: Elevator 2 [Active]  - Floor 5 - ACCELERATING - MOVING_DOWN - [DP10] {2,}
+998s: Elevator 1 [Active]  - Floor 14 - DECELERATING - MOVING_DOWN - [S55, C32] {13,}
+999s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_DOWN - [DP10] {2,}
+1001s: Elevator 1 [Active]  - Floor 14 - DOORS_OPENING - MOVING_DOWN - [S55, C32] {13,}
+1001s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_DOWN - [DP10] {2,}
+1003s: Elevator 1 [Active]  - Floor 14 - DOORS_OPEN - MOVING_DOWN - [S55, C32] {13,}
+1003s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_DOWN - [DP10] {2,}
+1004s: Elevator 1 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_DOWN - [S55, C32] {13,}
+1005s: Elevator 2 [Active]  - Floor 2 - DECELERATING - NOT_MOVING - [DP10] {}
+1005s: Adding Child 68 [-> 6] to floor 1.
+1006s: Elevator 1 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [S55, C32] {13,}
+1008s: Elevator 2 [Active]  - Floor 2 - DOORS_OPENING - NOT_MOVING - [DP10] {}
+1009s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_DOWN - [S55, C32] {13,}
+1009s:  Delivery Person 3 joining floor 10, heading to floor 4
+1010s: Elevator 2 [Active]  - Floor 2 - DOORS_OPEN - NOT_MOVING - [] {}
+1011s: Elevator 1 [Active]  - Floor 13 - DECELERATING - NOT_MOVING - [S55, C32] {}
+1011s: Elevator 2 [Active]  - Floor 2 - DOORS_CLOSING - NOT_MOVING - [] {}
+1013s: Elevator 2 [Idle]  - Floor 2 - IDLE_STATE - NOT_MOVING - [] {}
+1013s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - IDLE_STATE - MOVING_DOWN - [] {}
+1013s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - ACCELERATING - MOVING_DOWN - [] {}
+1014s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - NOT_MOVING - [S55, C32] {}
+1014s: Adding Jerk 69 [-> 6] to floor 1.
+1016s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [] {}
+1016s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - NOT_MOVING - [S55] {}
+1017s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - NOT_MOVING - [S55] {}
+1018s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [] {}
+1019s: Elevator 1 [Idle]  - Floor 13 - IDLE_STATE - NOT_MOVING - [S55] {}
+1019s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 13 - IDLE_STATE - MOVING_DOWN - [S55] {}
+1019s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 13 - ACCELERATING - MOVING_DOWN - [S55] {}
+1021s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [] {}
+1022s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 12 - MOVING - MOVING_DOWN - [S55] {}
+1022s:  Worker 7 joining floor 14, heading to floor 2
+1023s: Worker 50 responsibly requested floor 9 on elevator 2
+1023s: Child 51 clumsily requested floors 5 and 4 on elevator 2
+1023s: Child 53 clumsily requested floors 4 and 3 on elevator 2
+1023s: Delivery Person 54 responsibly requested floor 2 on elevator 2
+1023s: Visitor 58 responsibly requested floor 13 on elevator 2
+1023s: Child 59 was too awkward to board on elevator on floor 1 now has threshold 6
+1023s: Visitor 62 responsibly requested floor 7 on elevator 2
+1023s: Stoner 63 clumsily requested floors 4 and 3 on elevator 2
+1023s: Visitor 64 responsibly requested floor 2 on elevator 2
+1023s: Child 68 was too awkward to board on elevator on floor 1 now has threshold 6
+1023s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {2,3,4,5,7,9,13,15,}
+1024s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 11 - MOVING - MOVING_DOWN - [S55] {}
+1026s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 10 - MOVING - MOVING_DOWN - [S55] {}
+1028s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 9 - MOVING - MOVING_DOWN - [S55] {}
+1029s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {2,3,4,5,7,9,13,15,}
+1030s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 8 - MOVING - MOVING_DOWN - [S55] {}
+1031s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {2,3,4,5,7,9,13,15,}
+1032s: Elevator 1 [Dispatching to 8 MOVING_DOWN]  - Floor 8 - DECELERATING - MOVING_DOWN - [S55] {}
+1034s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {2,3,4,5,7,9,13,15,}
+1035s: Elevator 1 [Active]  - Floor 8 - DOORS_OPENING - MOVING_DOWN - [S55] {}
+1035s:  Delivery Person 35 joining floor 5, heading to floor 15
+1036s: Elevator 2 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {3,4,5,7,9,13,15,}
+1036s: Adding Visitor 70 [-> 14] to floor 1.
+1037s: Delivery Person 45 responsibly requested floor 7 on elevator 1
+1037s: Elevator 1 [Active]  - Floor 8 - DOORS_OPEN - MOVING_DOWN - [S55, DP45] {7,}
+1038s: Elevator 1 [Active]  - Floor 8 - DOORS_CLOSING - MOVING_DOWN - [S55, DP45] {7,}
+1039s: Elevator 2 [Active]  - Floor 2 - DOORS_OPENING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, V64, J65] {3,4,5,7,9,13,15,}
+1040s: Elevator 1 [Active]  - Floor 8 - ACCELERATING - MOVING_DOWN - [S55, DP45] {7,}
+1041s: Elevator 2 [Active]  - Floor 2 - DOORS_OPEN - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {3,4,5,7,9,13,15,}
+1042s: Elevator 2 [Active]  - Floor 2 - DOORS_CLOSING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {3,4,5,7,9,13,15,}
+1042s: Adding Delivery Person 71 [-> 2] to floor 1.
+1043s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_DOWN - [S55, DP45] {7,}
+1044s: Elevator 2 [Active]  - Floor 2 - ACCELERATING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {3,4,5,7,9,13,15,}
+1045s: Elevator 1 [Active]  - Floor 7 - DECELERATING - NOT_MOVING - [S55, DP45] {}
+1047s: Elevator 2 [Active]  - Floor 3 - MOVING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {3,4,5,7,9,13,15,}
+1048s: Elevator 1 [Active]  - Floor 7 - DOORS_OPENING - NOT_MOVING - [S55, DP45] {}
+1049s: Elevator 2 [Active]  - Floor 3 - DECELERATING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1050s: Elevator 1 [Active]  - Floor 7 - DOORS_OPEN - NOT_MOVING - [S55] {}
+1051s: Elevator 1 [Active]  - Floor 7 - DOORS_CLOSING - NOT_MOVING - [S55] {}
+1052s: Elevator 2 [Active]  - Floor 3 - DOORS_OPENING - MOVING_UP - [W50, C51, C53, DP54, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1053s: Elevator 1 [Idle]  - Floor 7 - IDLE_STATE - NOT_MOVING - [S55] {}
+1053s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 7 - IDLE_STATE - MOVING_UP - [S55] {}
+1053s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 7 - ACCELERATING - MOVING_UP - [S55] {}
+1054s: Elevator 2 [Active]  - Floor 3 - DOORS_OPEN - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1055s: Elevator 2 [Active]  - Floor 3 - DOORS_CLOSING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1056s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 8 - MOVING - MOVING_UP - [S55] {}
+1057s: Elevator 2 [Active]  - Floor 3 - ACCELERATING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1058s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 9 - MOVING - MOVING_UP - [S55] {}
+1059s:  Delivery Person 54 joining floor 3, heading to floor 2
+1060s: Elevator 2 [Active]  - Floor 4 - MOVING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {4,5,7,9,13,15,}
+1060s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 10 - MOVING - MOVING_UP - [S55] {}
+1062s: Elevator 2 [Active]  - Floor 4 - DECELERATING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1062s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 11 - MOVING - MOVING_UP - [S55] {}
+1063s: Adding Child 72 [-> 12] to floor 1.
+1064s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 12 - MOVING - MOVING_UP - [S55] {}
+1064s:  Delivery Person 10 joining floor 2, heading to floor 1
+1065s: Elevator 2 [Active]  - Floor 4 - DOORS_OPENING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1066s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 13 - MOVING - MOVING_UP - [S55] {}
+1067s: Elevator 2 [Active]  - Floor 4 - DOORS_OPEN - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1068s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 14 - MOVING - MOVING_UP - [S55] {}
+1068s: Elevator 2 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1070s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 15 - MOVING - MOVING_UP - [S55] {}
+1070s: Elevator 2 [Active]  - Floor 4 - ACCELERATING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1072s: Elevator 1 [Dispatching to 15 MOVING_DOWN]  - Floor 15 - DECELERATING - MOVING_DOWN - [S55] {}
+1073s: Elevator 2 [Active]  - Floor 5 - MOVING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {5,7,9,13,15,}
+1075s: Elevator 1 [Active]  - Floor 15 - DOORS_OPENING - MOVING_DOWN - [S55] {}
+1075s: Elevator 2 [Active]  - Floor 5 - DECELERATING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {7,9,13,15,}
+1077s: Child 47 clumsily requested floors 12 and 13 on elevator 1
+1077s: Elevator 1 [Active]  - Floor 15 - DOORS_OPEN - MOVING_DOWN - [S55, C47] {12,13,}
+1078s: Elevator 2 [Active]  - Floor 5 - DOORS_OPENING - MOVING_UP - [W50, C51, C53, V58, J60, V62, S63, J65] {7,9,13,15,}
+1078s: Elevator 1 [Active]  - Floor 15 - DOORS_CLOSING - MOVING_DOWN - [S55, C47] {12,13,}
+1080s: Elevator 2 [Active]  - Floor 5 - DOORS_OPEN - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {7,9,13,15,}
+1080s: Elevator 1 [Active]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S55, C47] {12,13,}
+1081s: Elevator 2 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {7,9,13,15,}
+1083s: Elevator 1 [Active]  - Floor 14 - MOVING - MOVING_DOWN - [S55, C47] {12,13,}
+1083s: Elevator 2 [Active]  - Floor 5 - ACCELERATING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {7,9,13,15,}
+1085s: Elevator 1 [Active]  - Floor 14 - DECELERATING - MOVING_DOWN - [S55, C47] {12,13,}
+1085s:  Child 53 joining floor 5, heading to floor 4
+1086s: Elevator 2 [Active]  - Floor 6 - MOVING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {7,9,13,15,}
+1088s: Elevator 1 [Active]  - Floor 14 - DOORS_OPENING - MOVING_DOWN - [S55, C47] {12,13,}
+1088s: Elevator 2 [Active]  - Floor 7 - MOVING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {7,9,13,15,}
+1090s: Worker 7 responsibly requested floor 2 on elevator 1
+1090s: Elevator 1 [Active]  - Floor 14 - DOORS_OPEN - MOVING_DOWN - [S55, C47, W7] {2,12,13,}
+1090s: Elevator 2 [Active]  - Floor 7 - DECELERATING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {9,13,15,}
+1091s: Elevator 1 [Active]  - Floor 14 - DOORS_CLOSING - MOVING_DOWN - [S55, C47, W7] {2,12,13,}
+1092s: Adding Jerk 73 [-> 14] to floor 1.
+1093s: Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {9,13,15,}
+1093s: Elevator 1 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [S55, C47, W7] {2,12,13,}
+15 : |   |   |  
+14 : | X |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   | ⬇️DP3->4   
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   | X |  
+ 6 : |   |   |  
+ 5 : |   |   | ↕️DP35->15  C53->4   
+ 4 : |   |   |  
+ 3 : |   |   | ↕️DP8->8  DP54->2   
+ 2 : |   |   | ⬇️DP10->1   
+ 1 : |   |   | ⬆️W56->10  C59->15  W61->10  V66->2  V67->13  C68->6  J69->6  V70->14  DP71->2  C72->12  J73->14   
+Elevator 1 [Active]  - Floor 14 - ACCELERATING - MOVING_DOWN - [S55, C47, W7] {2,12,13,}
+Elevator 2 [Active]  - Floor 7 - DOORS_OPENING - MOVING_UP - [W50, C51, V58, J60, V62, S63, J65] {9,13,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+100
+1095s: Elevator 2 [Active]  - Floor 7 - DOORS_OPEN - MOVING_UP - [W50, V58, J60, S63, J65] {9,13,15,}
+1096s: Elevator 1 [Active]  - Floor 13 - MOVING - MOVING_DOWN - [S55, C47, W7] {2,12,13,}
+1097s: Elevator 2 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_UP - [W50, V58, J60, S63, J65] {9,13,15,}
+1098s: Elevator 1 [Active]  - Floor 13 - DECELERATING - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1099s: Elevator 2 [Active]  - Floor 7 - ACCELERATING - MOVING_UP - [W50, V58, J60, S63, J65] {9,13,15,}
+1100s:  Child 51 joining floor 7, heading to floor 5
+1101s: Elevator 1 [Active]  - Floor 13 - DOORS_OPENING - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1102s: Elevator 2 [Active]  - Floor 8 - MOVING - MOVING_UP - [W50, V58, J60, S63, J65] {9,13,15,}
+1103s: Elevator 1 [Active]  - Floor 13 - DOORS_OPEN - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1104s: Elevator 2 [Active]  - Floor 9 - MOVING - MOVING_UP - [W50, V58, J60, S63, J65] {9,13,15,}
+1104s: Elevator 1 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1104s: Adding Jerk 74 [-> 12] to floor 1.
+1106s: Elevator 2 [Active]  - Floor 9 - DECELERATING - MOVING_UP - [W50, V58, J60, S63, J65] {13,15,}
+1106s: Elevator 1 [Active]  - Floor 13 - ACCELERATING - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1109s: Elevator 2 [Active]  - Floor 9 - DOORS_OPENING - MOVING_UP - [W50, V58, J60, S63, J65] {13,15,}
+1109s: Elevator 1 [Active]  - Floor 12 - MOVING - MOVING_DOWN - [S55, C47, W7] {2,12,}
+1111s: Elevator 2 [Active]  - Floor 9 - DOORS_OPEN - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1111s: Elevator 1 [Active]  - Floor 12 - DECELERATING - MOVING_DOWN - [S55, C47, W7] {2,}
+1112s: Elevator 2 [Active]  - Floor 9 - DOORS_CLOSING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1114s: Elevator 1 [Active]  - Floor 12 - DOORS_OPENING - MOVING_DOWN - [S55, C47, W7] {2,}
+1114s: Elevator 2 [Active]  - Floor 9 - ACCELERATING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1116s: Elevator 1 [Active]  - Floor 12 - DOORS_OPEN - MOVING_DOWN - [S55, W7] {2,}
+1117s: Elevator 2 [Active]  - Floor 10 - MOVING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1117s: Elevator 1 [Active]  - Floor 12 - DOORS_CLOSING - MOVING_DOWN - [S55, W7] {2,}
+1117s:  Delivery Person 45 joining floor 7, heading to floor 15
+1119s: Elevator 2 [Active]  - Floor 11 - MOVING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1119s: Elevator 1 [Active]  - Floor 12 - ACCELERATING - MOVING_DOWN - [S55, W7] {2,}
+1121s: Elevator 2 [Active]  - Floor 12 - MOVING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1122s: Elevator 1 [Active]  - Floor 11 - MOVING - MOVING_DOWN - [S55, W7] {2,}
+1123s: Elevator 2 [Active]  - Floor 13 - MOVING - MOVING_UP - [V58, J60, S63, J65] {13,15,}
+1124s: Elevator 1 [Active]  - Floor 10 - MOVING - MOVING_DOWN - [S55, W7] {2,}
+1125s: Elevator 2 [Active]  - Floor 13 - DECELERATING - MOVING_UP - [V58, J60, S63, J65] {15,}
+1126s: Elevator 1 [Active]  - Floor 10 - DECELERATING - MOVING_DOWN - [S55, W7] {2,}
+1128s: Elevator 2 [Active]  - Floor 13 - DOORS_OPENING - MOVING_UP - [V58, J60, S63, J65] {15,}
+1129s: Elevator 1 [Active]  - Floor 10 - DOORS_OPENING - MOVING_DOWN - [S55, W7] {2,}
+1130s: Elevator 2 [Active]  - Floor 13 - DOORS_OPEN - MOVING_UP - [J60, S63, J65] {15,}
+1131s: Delivery Person 3 responsibly requested floor 4 on elevator 1
+1131s: Elevator 1 [Active]  - Floor 10 - DOORS_OPEN - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1131s: Elevator 2 [Active]  - Floor 13 - DOORS_CLOSING - MOVING_UP - [J60, S63, J65] {15,}
+1132s: Elevator 1 [Active]  - Floor 10 - DOORS_CLOSING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1133s: Elevator 2 [Active]  - Floor 13 - ACCELERATING - MOVING_UP - [J60, S63, J65] {15,}
+1133s: Adding Visitor 75 [-> 6] to floor 1.
+1134s: Elevator 1 [Active]  - Floor 10 - ACCELERATING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1136s: Elevator 2 [Active]  - Floor 14 - MOVING - MOVING_UP - [J60, S63, J65] {15,}
+1137s: Elevator 1 [Active]  - Floor 9 - MOVING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1138s: Elevator 2 [Active]  - Floor 15 - MOVING - MOVING_UP - [J60, S63, J65] {15,}
+1139s: Elevator 1 [Active]  - Floor 8 - MOVING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1140s: Elevator 2 [Active]  - Floor 15 - DECELERATING - NOT_MOVING - [J60, S63, J65] {}
+1141s: Elevator 1 [Active]  - Floor 7 - MOVING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1143s: Elevator 2 [Active]  - Floor 15 - DOORS_OPENING - NOT_MOVING - [J60, S63, J65] {}
+1143s: Elevator 1 [Active]  - Floor 7 - DECELERATING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1145s: Elevator 2 [Active]  - Floor 15 - DOORS_OPEN - NOT_MOVING - [S63] {}
+1146s: Elevator 1 [Active]  - Floor 7 - DOORS_OPENING - MOVING_DOWN - [S55, W7, DP3] {2,4,}
+1147s: Elevator 2 [Active]  - Floor 15 - DOORS_CLOSING - NOT_MOVING - [S63] {}
+1148s: Child 51 clumsily requested floors 5 and 6 on elevator 1
+1148s: Elevator 1 [Active]  - Floor 7 - DOORS_OPEN - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,6,}
+1149s: Elevator 2 [Idle]  - Floor 15 - IDLE_STATE - NOT_MOVING - [S63] {}
+1149s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 15 - IDLE_STATE - MOVING_DOWN - [S63] {}
+1149s: Elevator 1 [Active]  - Floor 7 - DOORS_CLOSING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,6,}
+1149s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 15 - ACCELERATING - MOVING_DOWN - [S63] {}
+1151s: Elevator 1 [Active]  - Floor 7 - ACCELERATING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,6,}
+1152s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 14 - MOVING - MOVING_DOWN - [S63] {}
+1154s: Elevator 1 [Active]  - Floor 6 - MOVING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,6,}
+1154s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 13 - MOVING - MOVING_DOWN - [S63] {}
+1156s: Elevator 1 [Active]  - Floor 6 - DECELERATING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1156s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 12 - MOVING - MOVING_DOWN - [S63] {}
+1156s: Adding Visitor 76 [-> 5] to floor 1.
+1158s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 11 - MOVING - MOVING_DOWN - [S63] {}
+1159s: Elevator 1 [Active]  - Floor 6 - DOORS_OPENING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1160s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 10 - MOVING - MOVING_DOWN - [S63] {}
+1161s: Elevator 1 [Active]  - Floor 6 - DOORS_OPEN - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1162s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 9 - MOVING - MOVING_DOWN - [S63] {}
+1162s: Elevator 1 [Active]  - Floor 6 - DOORS_CLOSING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1164s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 8 - MOVING - MOVING_DOWN - [S63] {}
+1164s: Elevator 1 [Active]  - Floor 6 - ACCELERATING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1166s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 7 - MOVING - MOVING_DOWN - [S63] {}
+1167s: Elevator 1 [Active]  - Floor 5 - MOVING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,5,}
+1168s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 6 - MOVING - MOVING_DOWN - [S63] {}
+1169s: Elevator 1 [Active]  - Floor 5 - DECELERATING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,}
+1170s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 5 - MOVING - MOVING_DOWN - [S63] {}
+1172s: Elevator 1 [Active]  - Floor 5 - DOORS_OPENING - MOVING_DOWN - [S55, W7, DP3, C51] {2,4,}
+1172s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 4 - MOVING - MOVING_DOWN - [S63] {}
+1174s: Child 53 clumsily requested floors 4 and 5 on elevator 1
+1174s: Elevator 1 [Active]  - Floor 5 - DOORS_OPEN - MOVING_DOWN - [S55, W7, DP3, C53] {2,4,}
+1174s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 3 - MOVING - MOVING_DOWN - [S63] {}
+1176s: Elevator 1 [Active]  - Floor 5 - DOORS_CLOSING - MOVING_DOWN - [S55, W7, DP3, C53] {2,4,}
+1176s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 2 - MOVING - MOVING_DOWN - [S63] {}
+1177s: Adding Delivery Person 77 [-> 5] to floor 1.
+1178s: Elevator 1 [Active]  - Floor 5 - ACCELERATING - MOVING_DOWN - [S55, W7, DP3, C53] {2,4,}
+1178s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - MOVING - MOVING_DOWN - [S63] {}
+1180s: Elevator 2 [Dispatching to 1 MOVING_UP]  - Floor 1 - DECELERATING - MOVING_UP - [S63] {}
+1181s: Elevator 1 [Active]  - Floor 4 - MOVING - MOVING_DOWN - [S55, W7, DP3, C53] {2,4,}
+1183s: Elevator 2 [Active]  - Floor 1 - DOORS_OPENING - MOVING_UP - [S63] {}
+1183s: Elevator 1 [Active]  - Floor 4 - DECELERATING - MOVING_DOWN - [S55, W7, DP3, C53] {2,}
+1185s: Worker 56 responsibly requested floor 10 on elevator 2
+1185s: Child 59 clumsily requested floors 15 and 14 on elevator 2
+1185s: Worker 61 responsibly requested floor 10 on elevator 2
+1185s: Visitor 66 responsibly requested floor 2 on elevator 2
+1185s: Visitor 67 responsibly requested floor 13 on elevator 2
+1185s: Child 68 clumsily requested floors 6 and 5 on elevator 2
+1185s: Visitor 70 responsibly requested floor 14 on elevator 2
+1185s: Child 72 was too awkward to board on elevator on floor 1 now has threshold 6
+1185s: Elevator 2 [Active]  - Floor 1 - DOORS_OPEN - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {2,5,6,7,8,9,10,11,12,13,14,15,}
+1186s: Elevator 1 [Active]  - Floor 4 - DOORS_OPENING - MOVING_DOWN - [S55, W7, DP3, C53] {2,}
+1188s: Elevator 1 [Active]  - Floor 4 - DOORS_OPEN - MOVING_DOWN - [S55, W7] {2,}
+1190s: Elevator 1 [Active]  - Floor 4 - DOORS_CLOSING - MOVING_DOWN - [S55, W7] {2,}
+1191s: Elevator 2 [Active]  - Floor 1 - DOORS_CLOSING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {2,5,6,7,8,9,10,11,12,13,14,15,}
+1192s: Elevator 1 [Active]  - Floor 4 - ACCELERATING - MOVING_DOWN - [S55, W7] {2,}
+1193s: Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {2,5,6,7,8,9,10,11,12,13,14,15,}
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   | ⬆️DP45->15   
+ 6 : |   |   |  
+ 5 : |   |   | ⬆️DP35->15   
+ 4 : | X |   |  
+ 3 : |   |   | ↕️DP8->8  DP54->2   
+ 2 : |   |   | ⬇️DP10->1   
+ 1 : |   | X | ⬆️DP71->2  C72->12  V75->6  V76->5  DP77->5   
+Elevator 1 [Active]  - Floor 4 - ACCELERATING - MOVING_DOWN - [S55, W7] {2,}
+Elevator 2 [Active]  - Floor 1 - ACCELERATING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {2,5,6,7,8,9,10,11,12,13,14,15,}
+
+How long do you want to simulate? Enter -1 to end: 
+7
+1195s: Elevator 1 [Active]  - Floor 3 - MOVING - MOVING_DOWN - [S55, W7] {2,}
+1196s: Elevator 2 [Active]  - Floor 2 - MOVING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {2,5,6,7,8,9,10,11,12,13,14,15,}
+1197s: Elevator 1 [Active]  - Floor 3 - DECELERATING - MOVING_DOWN - [S55, W7] {2,}
+1197s:  Worker 27 joining floor 7, heading to floor 9
+1198s: Elevator 2 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {5,6,7,8,9,10,11,12,13,14,15,}
+1200s: Elevator 1 [Active]  - Floor 3 - DOORS_OPENING - MOVING_DOWN - [S55, W7] {2,}
+1200s: Adding Visitor 78 [-> 3] to floor 1.
+15 : |   |   |  
+14 : |   |   |  
+13 : |   |   |  
+12 : |   |   |  
+11 : |   |   |  
+10 : |   |   |  
+ 9 : |   |   |  
+ 8 : |   |   |  
+ 7 : |   |   | ⬆️DP45->15  W27->9   
+ 6 : |   |   |  
+ 5 : |   |   | ⬆️DP35->15   
+ 4 : |   |   |  
+ 3 : | X |   | ↕️DP8->8  DP54->2   
+ 2 : |   | X | ⬇️DP10->1   
+ 1 : |   |   | ⬆️DP71->2  C72->12  V75->6  V76->5  DP77->5  V78->3   
+Elevator 1 [Active]  - Floor 3 - DOORS_OPENING - MOVING_DOWN - [S55, W7] {2,}
+Elevator 2 [Active]  - Floor 2 - DECELERATING - MOVING_UP - [W56, C59, W61, V66, V67, C68, J69, V70, J73, J74] {5,6,7,8,9,10,11,12,13,14,15,}
+
+How long do you want to simulate? Enter -1 to end: 
